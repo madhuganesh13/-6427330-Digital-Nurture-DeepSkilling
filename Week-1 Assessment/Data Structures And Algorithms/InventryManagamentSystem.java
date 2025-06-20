@@ -1,13 +1,11 @@
 import java.util.HashMap;
 
 class InventryManager {
-
-
     private HashMap<Integer,Product> inventry = new HashMap<>();
     public void add_product(Product product){
         inventry.put(product.getProduct_id(),product);
     }
-
+    
     public void update_product(int Product_id,int newQty,double newprice){
         Product product = inventry.get(Product_id);
         if(product != null)
@@ -52,8 +50,6 @@ class InventryManager {
 
 }
 
-
-
 class Product {
     private int product_id;
     private String product_name;
@@ -93,9 +89,6 @@ class Product {
     }
 }
 
-
-
-
 public class Main {
     public static void main(String[] args) {
             InventryManager manager = new InventryManager();
@@ -111,14 +104,9 @@ public class Main {
         manager.update_product(102,50,60.69);
         System.out.println("\nInventry after updation!");
         manager.view_inventry();
-
         System.out.println("\nDeleting product 103...!");
         manager.delete_product(103);
-
         System.out.println("\nFinal Inventory");
         manager.view_inventry();
-
-
-
     }
 }
