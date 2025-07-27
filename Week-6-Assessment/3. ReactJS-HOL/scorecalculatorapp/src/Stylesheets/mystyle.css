@@ -1,0 +1,45 @@
+.score-container {
+  background: #ffffff;
+  padding: 25px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Title */
+.score-container h2 {
+  color: #2c3e50;
+  font-size: 22px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+/* Student details section */
+.student-details p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #34495e;
+}
+
+/* Average score box */
+.average-score {
+  margin-top: 10px;
+  border-radius: 4px;
+  background: #eafaf1;
+  border: 2px solid #27ae60;
+}
+
+.average-score h3 {
+  margin: 0;
+  color: #27ae60;
+  font-size: 18px;
+}
+
+.average-score p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+}
