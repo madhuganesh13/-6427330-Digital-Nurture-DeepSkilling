@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+div {
+  margin: 20px auto;
+  max-width: 600px;
+}
